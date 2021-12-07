@@ -1,5 +1,7 @@
 # vim-cheats
 
+Useful guides for vim: basics, find & replace etc.. 
+
 ## Working Directory
 
 `:pwd` show current working directory
