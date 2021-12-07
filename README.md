@@ -19,3 +19,7 @@
 # replace foo with bar (the "c" will let you confirm each match)
 :cfdo %s/foo/bar/gc | update
 ```
+
+## Windows
+
+`<CTRL-W> W` Switch to next window
