@@ -22,6 +22,15 @@ Useful guides for vim: basics, find & replace etc..
 :cfdo %s/foo/bar/gc | update
 ```
 
+## Input/Output
+
+### Save file opened with readonly permission using sudo
+
+```
+# See https://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-trick-work
+:w !sudo tee %
+```
+
 ## Windows
 
 `<CTRL-W> W` Switch to next window
