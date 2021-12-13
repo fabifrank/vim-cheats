@@ -26,8 +26,8 @@ Useful guides for vim: basics, find & replace etc..
 
 ### Save file opened with readonly permission using sudo
 
+See https://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-trick-work
 ```
-# See https://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-trick-work
 :w !sudo tee %
 ```
 
