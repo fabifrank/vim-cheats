@@ -22,6 +22,22 @@ Useful guides for vim: basics, find & replace etc..
 :cfdo %s/foo/bar/gc | update
 ```
 
+## Loading data
+
+### Insert output of shell command
+
+To run a shell command and insert its output into the current file, run:
+
+```vim
+:r!<COMMAND>
+```
+
+In example:
+
+```vim
+:r!ls
+```
+
 ## Formatting
 
 ### Auto-wrap a long comment line into multiple fixed-width lines
